@@ -103,6 +103,7 @@
             this.UsrSigup.Name = "UsrSigup";
             this.UsrSigup.Size = new System.Drawing.Size(472, 683);
             this.UsrSigup.TabIndex = 5;
+            this.UsrSigup.Load += new System.EventHandler(this.UsrSigup_Load);
             // 
             // Login
             // 

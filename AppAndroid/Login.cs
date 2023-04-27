@@ -78,7 +78,7 @@ namespace AppAndroid
                 string loginn = txtAccount.Text +"\t"+ txtPassword.Text;
                 if (loginn== rd.ReadLine())
                 {
-                    rd.Close();
+                    
                     StreamWriter wt = new StreamWriter(Directory.GetParent("Users").Parent.Parent.FullName + "\\Users\\LoggingUser.txt");
                     wt.WriteLine(txtAccount.Text);
                     wt.Close();
@@ -93,11 +93,18 @@ namespace AppAndroid
                     // Do sth like open the app;
                     appli app = new appli();
                     app.Show();
+                    rd.Close();
                     this.Hide();
+                    return;
                                        
                 }              
             }
             MessageBox.Show("USER NAME OR PASSWORD IS INCORRECT!");        
             }
+
+        private void UsrSigup_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
