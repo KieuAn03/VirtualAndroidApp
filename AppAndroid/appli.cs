@@ -10,12 +10,11 @@ using System.Windows.Forms;
 using System.IO;
 namespace AppAndroid
 {
-    public partial class app : Form
+    public partial class appli : Form
     {
-        public app()
+        public appli()
         {
             InitializeComponent();
-            
             string path = Directory.GetParent("Users").Parent.Parent.FullName + "\\Users";
             string user;
             StreamReader rd = new StreamReader(path + "\\LoggingUser.txt");
@@ -31,39 +30,27 @@ namespace AppAndroid
                     break;
                 }
             }
-            rd = new StreamReader(dir.FullName + "\\info.txt");     
-            
+            rd = new StreamReader(dir.FullName + "\\info.txt");
             lblName.Text = rd.ReadLine();
             rd.ReadLine();
             rd.ReadLine();
             txtAdress.Text = rd.ReadLine();
             txtMoney.Text = rd.ReadLine();
             rd.Close();
+
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        private void appli_Load(object sender, EventArgs e)
         {
 
         }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
+        public bool islogout { get; set; }
         private void label1_Click(object sender, EventArgs e)
         {
+            
+            this.Close();
+            islogout = true;
 
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

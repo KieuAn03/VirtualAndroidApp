@@ -98,7 +98,7 @@
             // 
             this.UsrSigup.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("UsrSigup.BackgroundImage")));
             this.UsrSigup.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.UsrSigup.Location = new System.Drawing.Point(209, 85);
+            this.UsrSigup.Location = new System.Drawing.Point(0, -2);
             this.UsrSigup.Margin = new System.Windows.Forms.Padding(2);
             this.UsrSigup.Name = "UsrSigup";
             this.UsrSigup.Size = new System.Drawing.Size(472, 683);

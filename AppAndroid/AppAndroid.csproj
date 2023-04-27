@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="app.cs">
+    <Compile Include="appli.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="app.Designer.cs">
-      <DependentUpon>app.cs</DependentUpon>
+    <Compile Include="appli.Designer.cs">
+      <DependentUpon>appli.cs</DependentUpon>
     </Compile>
     <Compile Include="Cart.cs">
       <SubType>UserControl</SubType>
@@ -84,8 +84,8 @@
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="app.resx">
-      <DependentUpon>app.cs</DependentUpon>
+    <EmbeddedResource Include="appli.resx">
+      <DependentUpon>appli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>

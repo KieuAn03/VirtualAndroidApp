@@ -16,13 +16,19 @@ namespace AppAndroid
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
+            appli zz = new appli();
             Login lg = new Login();
             Application.Run(lg);
             if (lg.loginOK)
-            {
-                Application.Run(new app());
-            }
+                {
+                    zz.islogout = false;
+                    Application.Run(zz);
+                }
+                if (zz.islogout)
+                {
+                    lg.loginOK = false;
+                    Application.Run(lg);
+                }
             
         }
     }
