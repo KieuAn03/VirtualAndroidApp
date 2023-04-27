@@ -16,20 +16,8 @@ namespace AppAndroid
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            appli zz = new appli();
-            Login lg = new Login();
-            Application.Run(lg);
-            if (lg.loginOK)
-                {
-                    zz.islogout = false;
-                    Application.Run(zz);
-                }
-                if (zz.islogout)
-                {
-                    lg.loginOK = false;
-                    Application.Run(lg);
-                }
-            
+            Application.Run(new Login());
+
         }
     }
 }

@@ -209,6 +209,7 @@
             this.Controls.Add(this.panel2);
             this.Name = "appli";
             this.Text = "Application";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.appli_FormClosed);
             this.Load += new System.EventHandler(this.appli_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

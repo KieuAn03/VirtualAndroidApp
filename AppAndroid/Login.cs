@@ -91,10 +91,10 @@ namespace AppAndroid
                         wr.Close();
                     }
                     // Do sth like open the app;
-                    
-                    this.Close();
-                    loginOK = true;
-                    
+                    appli app = new appli();
+                    app.Show();
+                    this.Hide();
+                                       
                 }              
             }
             MessageBox.Show("USER NAME OR PASSWORD IS INCORRECT!");        

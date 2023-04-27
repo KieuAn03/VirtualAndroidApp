@@ -19,7 +19,7 @@ namespace AppAndroid
             string user;
             StreamReader rd = new StreamReader(path + "\\LoggingUser.txt");
             user = rd.ReadLine();
-            rd.Close();
+            
 
             DirectoryInfo dir = new DirectoryInfo(path);
             foreach (DirectoryInfo inf in dir.GetDirectories())
@@ -47,10 +47,16 @@ namespace AppAndroid
         public bool islogout { get; set; }
         private void label1_Click(object sender, EventArgs e)
         {
-            
-            this.Close();
+            Login lg = new Login();
+            lg.Show();
             islogout = true;
+            this.Close();            
+        }
 
+        private void appli_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if(!islogout)
+                Application.Exit();
         }
     }
 }
