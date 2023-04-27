@@ -31,7 +31,14 @@ namespace AppAndroid
                     break;
                 }
             }
-            lblName.Text = dir.Name;
+            rd = new StreamReader(dir.FullName + "\\info.txt");     
+            
+            lblName.Text = rd.ReadLine();
+            rd.ReadLine();
+            rd.ReadLine();
+            txtAdress.Text = rd.ReadLine();
+            txtMoney.Text = rd.ReadLine();
+            rd.Close();
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)

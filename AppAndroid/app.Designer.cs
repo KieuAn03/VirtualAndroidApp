@@ -29,24 +29,30 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.userControl11 = new AppAndroid.UserControl1();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.txtAdress = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtMoney = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.userControl11 = new AppAndroid.UserControl1();
             this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -62,6 +68,15 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(472, 65);
             this.panel2.TabIndex = 0;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.userControl11);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 120);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(472, 498);
+            this.panel3.TabIndex = 0;
             // 
             // pictureBox5
             // 
@@ -115,28 +130,14 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.userControl11);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 120);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(472, 498);
-            this.panel3.TabIndex = 0;
-            // 
-            // userControl11
-            // 
-            this.userControl11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.userControl11.Location = new System.Drawing.Point(0, 4);
-            this.userControl11.Margin = new System.Windows.Forms.Padding(2);
-            this.userControl11.Name = "userControl11";
-            this.userControl11.Size = new System.Drawing.Size(470, 485);
-            this.userControl11.TabIndex = 0;
-            // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::AppAndroid.Properties.Resources.title;
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox7);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.txtAdress);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.txtMoney);
             this.panel1.Controls.Add(this.lblName);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -145,6 +146,64 @@
             this.panel1.Size = new System.Drawing.Size(472, 120);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.White;
+            this.pictureBox7.BackgroundImage = global::AppAndroid.Properties.Resources._1564524_adress_gps_location_pin_position_icon;
+            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox7.Location = new System.Drawing.Point(72, 80);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(34, 24);
+            this.pictureBox7.TabIndex = 6;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.pictureBox6.BackgroundImage = global::AppAndroid.Properties.Resources._290143_cash_money_payment_wallet_icon;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox6.Location = new System.Drawing.Point(72, 46);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(34, 24);
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
+            // 
+            // txtAdress
+            // 
+            this.txtAdress.AutoSize = true;
+            this.txtAdress.BackColor = System.Drawing.Color.White;
+            this.txtAdress.Font = new System.Drawing.Font("Georgia", 15F);
+            this.txtAdress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtAdress.Location = new System.Drawing.Point(103, 80);
+            this.txtAdress.Name = "txtAdress";
+            this.txtAdress.Size = new System.Drawing.Size(70, 24);
+            this.txtAdress.TabIndex = 4;
+            this.txtAdress.Text = "Adress";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Georgia", 10F);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(415, 86);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(57, 17);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Log Out";
+            // 
+            // txtMoney
+            // 
+            this.txtMoney.AutoSize = true;
+            this.txtMoney.BackColor = System.Drawing.Color.White;
+            this.txtMoney.Font = new System.Drawing.Font("Georgia", 15F);
+            this.txtMoney.ForeColor = System.Drawing.Color.Navy;
+            this.txtMoney.Location = new System.Drawing.Point(103, 46);
+            this.txtMoney.Name = "txtMoney";
+            this.txtMoney.Size = new System.Drawing.Size(72, 24);
+            this.txtMoney.TabIndex = 2;
+            this.txtMoney.Text = "Money";
             // 
             // lblName
             // 
@@ -159,15 +218,14 @@
             this.lblName.Text = "User Name";
             this.lblName.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label1
+            // userControl11
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(425, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Exit";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            this.userControl11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.userControl11.Location = new System.Drawing.Point(0, 4);
+            this.userControl11.Margin = new System.Windows.Forms.Padding(2);
+            this.userControl11.Name = "userControl11";
+            this.userControl11.Size = new System.Drawing.Size(470, 485);
+            this.userControl11.TabIndex = 0;
             // 
             // app
             // 
@@ -183,14 +241,16 @@
             this.Name = "app";
             this.Text = "Form1";
             this.panel2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -207,7 +267,11 @@
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Panel panel3;
         private UserControl1 userControl11;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Label txtAdress;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label txtMoney;
     }
 }
 

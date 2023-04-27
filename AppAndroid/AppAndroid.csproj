@@ -167,5 +167,11 @@
   <ItemGroup>
     <None Include="Resources\21.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\290143_cash_money_payment_wallet_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1564524_adress_gps_location_pin_position_icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

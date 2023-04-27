@@ -103,6 +103,16 @@ namespace AppAndroid.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1564524_adress_gps_location_pin_position_icon {
+            get {
+                object obj = ResourceManager.GetObject("1564524_adress_gps_location_pin_position_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2 {
             get {
                 object obj = ResourceManager.GetObject("2", resourceCulture);
@@ -116,6 +126,16 @@ namespace AppAndroid.Properties {
         internal static System.Drawing.Bitmap _21 {
             get {
                 object obj = ResourceManager.GetObject("21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _290143_cash_money_payment_wallet_icon {
+            get {
+                object obj = ResourceManager.GetObject("290143_cash_money_payment_wallet_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
