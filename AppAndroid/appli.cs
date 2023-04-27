@@ -19,7 +19,7 @@ namespace AppAndroid
             string user;
             StreamReader rd = new StreamReader(path + "\\LoggingUser.txt");
             user = rd.ReadLine();
-            
+            rd.Close();
 
             DirectoryInfo dir = new DirectoryInfo(path);
             foreach (DirectoryInfo inf in dir.GetDirectories())
@@ -57,6 +57,11 @@ namespace AppAndroid
         {
             if(!islogout)
                 Application.Exit();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
