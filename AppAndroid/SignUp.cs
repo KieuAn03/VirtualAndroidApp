@@ -50,6 +50,7 @@ namespace AppAndroid
                 string Adressing = txtAdress.Text;
                 int Money = 0;
                 Directory.CreateDirectory(dir + "\\Users\\" + Usr);
+                File.Create(dir + "\\Users\\" + Usr + "\\history.txt");
                 StreamWriter wt = File.CreateText(dir + "\\Users\\" + Usr + "\\info.txt");
                 wt.WriteLine(Usr);
                 wt.WriteLine(Password);
@@ -65,7 +66,7 @@ namespace AppAndroid
                 {
                     wt2.WriteLine(line);
                 }
-                wt2.WriteLine(Usr + "\t" + Password);
+                wt2.Write(Usr + "\t" + Password);
                 wt2.Close();
             }
             else

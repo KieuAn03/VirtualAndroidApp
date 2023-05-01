@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.Name = "Cart";
-            this.Size = new System.Drawing.Size(540, 476);
+            this.Size = new System.Drawing.Size(456, 461);
             this.Load += new System.EventHandler(this.Cart_Load);
             this.ResumeLayout(false);
 

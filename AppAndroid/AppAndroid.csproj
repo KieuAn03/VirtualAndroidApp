@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Account.Designer.cs">
+      <DependentUpon>Account.cs</DependentUpon>
+    </Compile>
     <Compile Include="appli.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +65,48 @@
     <Compile Include="Cart.Designer.cs">
       <DependentUpon>Cart.cs</DependentUpon>
     </Compile>
+    <Compile Include="CartItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CartItem.Designer.cs">
+      <DependentUpon>CartItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Chat.Designer.cs">
+      <DependentUpon>Chat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cleaning.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cleaning.Designer.cs">
+      <DependentUpon>cleaning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CleaningService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CleaningService.Designer.cs">
+      <DependentUpon>CleaningService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CookingService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CookingService.Designer.cs">
+      <DependentUpon>CookingService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="laundry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="laundry.Designer.cs">
+      <DependentUpon>laundry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LaundryService.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LaundryService.Designer.cs">
+      <DependentUpon>LaundryService.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +115,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ServiceItem.Designer.cs">
+      <DependentUpon>ServiceItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Services.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -78,17 +133,47 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="appli.resx">
       <DependentUpon>appli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cart.resx">
       <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CartItem.resx">
+      <DependentUpon>CartItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chat.resx">
+      <DependentUpon>Chat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cleaning.resx">
+      <DependentUpon>cleaning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CleaningService.resx">
+      <DependentUpon>CleaningService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CookingService.resx">
+      <DependentUpon>CookingService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="laundry.resx">
+      <DependentUpon>laundry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaundryService.resx">
+      <DependentUpon>LaundryService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -103,11 +188,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ServiceItem.resx">
+      <DependentUpon>ServiceItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Services.resx">
       <DependentUpon>Services.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
@@ -172,6 +263,168 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1564524_adress_gps_location_pin_position_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3099397_woman_cook_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\379504_chef_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9016844_cleaning_house_covid-19_virus_pandemic_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7150138_washing_machine_clean_wash_technology_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38999_exit_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\73072_base_cart_shopping_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\290149_building_estate_home_house_real_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\331489_cook_halloween_scary_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\370076_account_avatar_client_male_person_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\379504_chef_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1156630_location_navigation_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1181189_chat_wechat_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1688864_geo_location_map_optimization_place_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2178861_service_automobile_car_gear_accessories_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2540587_notification_paper plane_plane_send_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2670409_decorations_diwali_festival_lights_star_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2670414_decorations_diwali_festival_lights_rangoli_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2812116_bank_cash_coin_dollar_money_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2812117_bank_cash_coin_dollar_money_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3099397_woman_cook_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3643728_balloon_chat_conversation_speak_word_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3924904_kirim_send_web_creanimasi_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4043238_avatar_boy_kid_person_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4043250_avatar_child_girl_kid_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4043260_avatar_male_man_portrait_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5000720_maps_network_online_social media_location_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5859103_boiling_cook_cooking_food_hot_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5929219_cook_cooking_food_hot_kitchen_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5964805_boiled food_cook_cooked food_healthy_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7150138_washing_machine_clean_wash_technology_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9016844_cleaning_house_covid-19_virus_pandemic_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9016847_cleaning_kitchen_covid-19_virus_pandemic_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canho01.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canho02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canho03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canho04.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canho05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com030.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com031.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com032.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com040.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com041.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giat-ui.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giatui01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giatui02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GiatUi03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GiatUi04.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

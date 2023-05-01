@@ -16,6 +16,9 @@ namespace AppAndroid
         {
             InitializeComponent();
             UsrSigup.Visible = false;
+            StreamReader rd = new StreamReader(Directory.GetParent("Users").Parent.Parent.FullName + "\\Users\\CurUser.txt");
+            txtAccount.Text = rd.ReadLine();
+            rd.Close();
 
         }
         public bool loginOK { get; set; }
@@ -37,7 +40,6 @@ namespace AppAndroid
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
-           // 
         }
 
         private void RegisterClick(object sender, EventArgs e)
