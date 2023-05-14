@@ -15,25 +15,61 @@ namespace AppAndroid
         public appli()
         {
             InitializeComponent();
-            
+
             string path = Directory.GetParent("Users").Parent.Parent.FullName + "\\Users";
             string user;
             StreamReader rd = new StreamReader(path + "\\LoggingUser.txt");
             user = rd.ReadLine();
             rd.Close();
-            DirectoryInfo dir = new DirectoryInfo(path+"\\"+user);
+            refreshpage();
+           
+            HomePanel.BringToFront();
+            btnHome.BackColor = Color.LightGoldenrodYellow;
+            fileSystemWatcher1 = new FileSystemWatcher(path +"\\" +user);
+            fileSystemWatcher1.NotifyFilter =
+                                  NotifyFilters.LastWrite;
+
+
+            fileSystemWatcher1.Changed +=OnChanged;
+
+            fileSystemWatcher1.Filter = "*.txt";
+            fileSystemWatcher1.EnableRaisingEvents = true;
+
+        }
+        
+        private void OnChanged(object sender, FileSystemEventArgs e)
+        {
+            if (e.ChangeType != WatcherChangeTypes.Changed)
+            {
+                return;
+            }
+            refreshpage();
+
+
+        }
+
+        
+
+
+        private void refreshpage()
+        {
+            string path = Directory.GetParent("Users").Parent.Parent.FullName + "\\Users";
+            string user;
+            StreamReader rd = new StreamReader(path + "\\LoggingUser.txt");
+            user = rd.ReadLine();
+            rd.Close();
+            DirectoryInfo dir = new DirectoryInfo(path + "\\" + user);
             rd = new StreamReader(dir.FullName + "\\info.txt");
             lblName.Text = rd.ReadLine();
             rd.ReadLine();
             rd.ReadLine();
             txtAdress.Text = rd.ReadLine();
-            txtMoney.Text = rd.ReadLine();
+            txtMoney.Text = rd.ReadLine() + "VND";
             rd.Close();
-            HomePanel.BringToFront();
-            btnHome.BackColor = Color.LightGoldenrodYellow;
-
-
         }
+
+
+
 
         private void appli_Load(object sender, EventArgs e)
         {
@@ -72,6 +108,7 @@ namespace AppAndroid
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            
             ServicePanel.BringToFront();
             btnHome.BackColor = Color.White;
             btnAccount.BackColor= Color.White;
@@ -88,16 +125,19 @@ namespace AppAndroid
 
         private void btnCart_Click(object sender, EventArgs e)
         {
-            cart1.BringToFront();
+            cart2.BringToFront();
+            cart2.button1_Click(sender, e);
             btnHome.BackColor = Color.White;
             btnChat.BackColor= Color.White;
             btnService.BackColor= Color.White;
             btnCart.BackColor = Color.LightGoldenrodYellow;
             btnAccount.BackColor= Color.White;
+            cart2.calculateMoney();
         }
 
         private void btnChat_Click(object sender, EventArgs e)
         {
+            chat1.flowLayoutPanel1.Refresh();
             chat1.BringToFront();
             btnAccount.BackColor = Color.White;
             btnCart.BackColor = Color.White;
@@ -109,12 +149,28 @@ namespace AppAndroid
 
         private void btnAccount_Click(object sender, EventArgs e)
         {
-            account1.BringToFront();
+            account2.historyPanel1.refreshHistory();
+            account2.BringToFront();
             btnAccount.BackColor = Color.LightGoldenrodYellow;
             btnHome.BackColor= Color.White;
             btnCart.BackColor = Color.White;
             btnService.BackColor=Color.White;
             btnChat.BackColor = Color.White;
+        }
+
+        private void chat1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+       
+        public  void closeThis()
+        {
+            islogout = false;
+
+        }
+        private void account2_Load(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -34,27 +34,25 @@
             this.btnCart = new System.Windows.Forms.PictureBox();
             this.btnService = new System.Windows.Forms.PictureBox();
             this.btnHome = new System.Windows.Forms.PictureBox();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.txtAdress = new System.Windows.Forms.Label();
             this.txtMoney = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
+            this.account2 = new AppAndroid.Account();
+            this.cart2 = new AppAndroid.Cart();
+            this.chat1 = new AppAndroid.Chat();
             this.HomePanel = new AppAndroid.UserControl1();
             this.ServicePanel = new AppAndroid.Services();
-            this.cart1 = new AppAndroid.Cart();
-            this.chat1 = new AppAndroid.Chat();
-            this.account1 = new AppAndroid.Account();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnAccount)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnChat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnService)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -127,12 +125,16 @@
             this.btnHome.TabStop = false;
             this.btnHome.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::AppAndroid.Properties.Resources.title;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = global::AppAndroid.Properties.Resources.title1;
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.pictureBox7);
-            this.panel1.Controls.Add(this.pictureBox6);
             this.panel1.Controls.Add(this.txtAdress);
             this.panel1.Controls.Add(this.txtMoney);
             this.panel1.Controls.Add(this.lblName);
@@ -147,70 +149,74 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(406, 80);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(319, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(95, 24);
             this.label1.TabIndex = 7;
-            this.label1.Text = "label1";
+            this.label1.Text = "Đăng xuất";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.White;
-            this.pictureBox7.BackgroundImage = global::AppAndroid.Properties.Resources._1564524_adress_gps_location_pin_position_icon;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox7.Location = new System.Drawing.Point(72, 80);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(34, 24);
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.pictureBox6.BackgroundImage = global::AppAndroid.Properties.Resources._290143_cash_money_payment_wallet_icon;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox6.Location = new System.Drawing.Point(72, 46);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(34, 24);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
             // 
             // txtAdress
             // 
             this.txtAdress.AutoSize = true;
-            this.txtAdress.BackColor = System.Drawing.Color.White;
-            this.txtAdress.Font = new System.Drawing.Font("Georgia", 15F);
-            this.txtAdress.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtAdress.Location = new System.Drawing.Point(103, 80);
+            this.txtAdress.BackColor = System.Drawing.Color.Transparent;
+            this.txtAdress.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAdress.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtAdress.Location = new System.Drawing.Point(52, 89);
             this.txtAdress.Name = "txtAdress";
-            this.txtAdress.Size = new System.Drawing.Size(70, 24);
+            this.txtAdress.Size = new System.Drawing.Size(69, 24);
             this.txtAdress.TabIndex = 4;
             this.txtAdress.Text = "Adress";
             // 
             // txtMoney
             // 
             this.txtMoney.AutoSize = true;
-            this.txtMoney.BackColor = System.Drawing.Color.White;
-            this.txtMoney.Font = new System.Drawing.Font("Georgia", 15F);
-            this.txtMoney.ForeColor = System.Drawing.Color.Navy;
-            this.txtMoney.Location = new System.Drawing.Point(103, 46);
+            this.txtMoney.BackColor = System.Drawing.Color.Transparent;
+            this.txtMoney.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMoney.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtMoney.Location = new System.Drawing.Point(48, 56);
             this.txtMoney.Name = "txtMoney";
-            this.txtMoney.Size = new System.Drawing.Size(72, 24);
+            this.txtMoney.Size = new System.Drawing.Size(120, 24);
             this.txtMoney.TabIndex = 2;
-            this.txtMoney.Text = "Money";
+            this.txtMoney.Text = "12235432454";
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
             this.lblName.BackColor = System.Drawing.Color.Transparent;
-            this.lblName.Font = new System.Drawing.Font("Georgia", 20F);
-            this.lblName.ForeColor = System.Drawing.Color.MistyRose;
-            this.lblName.Location = new System.Drawing.Point(66, 5);
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblName.Location = new System.Drawing.Point(51, 7);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(149, 31);
+            this.lblName.Size = new System.Drawing.Size(151, 31);
             this.lblName.TabIndex = 0;
             this.lblName.Text = "User Name";
+            // 
+            // account2
+            // 
+            this.account2.Location = new System.Drawing.Point(0, 118);
+            this.account2.Name = "account2";
+            this.account2.Size = new System.Drawing.Size(456, 461);
+            this.account2.TabIndex = 11;
+            this.account2.Load += new System.EventHandler(this.account2_Load);
+            // 
+            // cart2
+            // 
+            this.cart2.AutoScroll = true;
+            this.cart2.Location = new System.Drawing.Point(0, 118);
+            this.cart2.Name = "cart2";
+            this.cart2.Size = new System.Drawing.Size(456, 461);
+            this.cart2.TabIndex = 10;
+            // 
+            // chat1
+            // 
+            this.chat1.Location = new System.Drawing.Point(0, 118);
+            this.chat1.Name = "chat1";
+            this.chat1.Size = new System.Drawing.Size(456, 461);
+            this.chat1.TabIndex = 9;
+            this.chat1.Load += new System.EventHandler(this.chat1_Load);
             // 
             // HomePanel
             // 
@@ -229,36 +235,14 @@
             this.ServicePanel.Size = new System.Drawing.Size(459, 461);
             this.ServicePanel.TabIndex = 7;
             // 
-            // cart1
-            // 
-            this.cart1.AutoScroll = true;
-            this.cart1.Location = new System.Drawing.Point(0, 118);
-            this.cart1.Name = "cart1";
-            this.cart1.Size = new System.Drawing.Size(456, 461);
-            this.cart1.TabIndex = 8;
-            // 
-            // chat1
-            // 
-            this.chat1.Location = new System.Drawing.Point(0, 118);
-            this.chat1.Name = "chat1";
-            this.chat1.Size = new System.Drawing.Size(456, 461);
-            this.chat1.TabIndex = 9;
-            // 
-            // account1
-            // 
-            this.account1.Location = new System.Drawing.Point(0, 118);
-            this.account1.Name = "account1";
-            this.account1.Size = new System.Drawing.Size(456, 461);
-            this.account1.TabIndex = 10;
-            // 
             // appli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(456, 644);
-            this.Controls.Add(this.account1);
+            this.Controls.Add(this.account2);
+            this.Controls.Add(this.cart2);
             this.Controls.Add(this.chat1);
-            this.Controls.Add(this.cart1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.HomePanel);
@@ -275,10 +259,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnCart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnService)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnHome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -291,16 +274,15 @@
         private System.Windows.Forms.PictureBox btnService;
         private System.Windows.Forms.PictureBox btnHome;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label txtAdress;
         private System.Windows.Forms.Label txtMoney;
         private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label label1;
         private UserControl1 HomePanel;
         private Services ServicePanel;
-        private Cart cart1;
         private Chat chat1;
-        private Account account1;
+        private Account account2;
+        public Cart cart2;
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
     }
 }

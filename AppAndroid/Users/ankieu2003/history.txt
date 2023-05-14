@@ -1,0 +1,12 @@
+Mâm vừa	200000	12/05/2023 01:49:18	Chơi đá Cty	On Going	N/A
+Mâm nhỏ	150000	12/05/2023 01:49:19	Chơi đá Cty	On Going	N/A
+Mâm lớn	250000	12/05/2023 01:49:19	Chơi đá Cty	On Going	N/A
+Siêu tiệc	300000	12/05/2023 01:49:48	Chơi đá Cty	On Going	N/A
+Mâm vừa	200000	12/05/2023 02:20:53	Chơi đá Cty	On Going	N/A
+Dọn 100-200m2	350000	12/05/2023 02:20:53	Chơi đá Cty	On Going	N/A
+Giặt quần áo	100000	12/05/2023 03:13:05	Hồ Chí Minh, Việt Nam	On Going	N/A
+Ủi là	100000	12/05/2023 03:13:06	Hồ Chí Minh, Việt Nam	On Going	N/A
+Mâm vừa	200000	12/05/2023 03:16:46	Hồ Chí Minh, Việt Nam	On Going	N/A
+Giặt quần áo & chăn ga	150000	12/05/2023 03:16:46	Hồ Chí Minh, Việt Nam	On Going	N/A
+Combo Giặt, ủi	325000	12/05/2023 03:16:46	Hồ Chí Minh, Việt Nam	On Going	N/A
+Giặt quần áo	100000	12/05/2023 03:16:46	Hồ Chí Minh, Việt Nam	On Going	N/A

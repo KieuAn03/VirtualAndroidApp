@@ -43,7 +43,7 @@ namespace AppAndroid
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             pnlCooking.BringToFront();
-            tabcooking.BackColor = Color.MistyRose;
+            tabcooking.BackColor = Color.Coral;
             tabCleaning.BackColor = Color.White;
             tabLaundry.BackColor = Color.White;
         }
@@ -53,7 +53,7 @@ namespace AppAndroid
             cleaningService1.BringToFront();
             tabcooking.BackColor = Color.White;
             tabLaundry.BackColor= Color.White;
-            tabCleaning.BackColor= Color.MistyRose;
+            tabCleaning.BackColor= Color.Coral;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -61,7 +61,7 @@ namespace AppAndroid
             laundryService1.BringToFront();
             tabcooking.BackColor = Color.White;
             tabCleaning.BackColor = Color.White;
-            tabLaundry.BackColor = Color.MistyRose;
+            tabLaundry.BackColor = Color.Coral;
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)

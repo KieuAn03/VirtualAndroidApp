@@ -42,21 +42,35 @@ namespace AppAndroid
         {
             string dir = Directory.GetParent("Users").Parent.Parent.FullName;
             
+            if (!checkBox2.Checked)
+            {
+                MessageBox.Show("Bạn chưa đồng ý điều khoản sử dụng!");
+                return;
+            }    
             if (txtPassword.Text == txtRepassword.Text)
             {
+                MessageBox.Show("Đăng ký thành công!");
                 string Usr = txtUserName.Text;
                 string Password =txtPassword.Text;
                 string Phone = txtPhone.Text;
                 string Adressing = txtAdress.Text;
                 int Money = 0;
                 Directory.CreateDirectory(dir + "\\Users\\" + Usr);
-                File.Create(dir + "\\Users\\" + Usr + "\\history.txt");
+                
+                
+                
                 StreamWriter wt = File.CreateText(dir + "\\Users\\" + Usr + "\\info.txt");
                 wt.WriteLine(Usr);
                 wt.WriteLine(Password);
                 wt.WriteLine(Phone);
                 wt.WriteLine(Adressing);
                 wt.WriteLine(Money);
+                wt.WriteLine(txtEmail.Text);
+                wt.WriteLine("none");
+                wt.Close();
+                wt = File.CreateText(dir + "\\Users\\" + Usr + "\\cart.txt");
+                wt.Close();
+                wt = File.CreateText(dir + "\\Users\\" + Usr + "\\history.txt");
                 wt.Close();
                 StreamReader rd = new StreamReader(dir + "\\Users\\UserControl.txt");
                 string line = rd.ReadToEnd();
@@ -68,10 +82,15 @@ namespace AppAndroid
                 }
                 wt2.Write(Usr + "\t" + Password);
                 wt2.Close();
+                this.Visible = false;
+                return;
             }
             else
             {
-                //sth like password doesn't match ~
+                if (txtPassword.Text != txtRepassword.Text)
+                {
+                    MessageBox.Show("xác nhận mật khẩu chưa chính xác!");
+                }
             }
             
         }

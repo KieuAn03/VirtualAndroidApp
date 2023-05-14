@@ -59,30 +59,33 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.Gray;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 86);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(47, 461);
+            this.panel1.Size = new System.Drawing.Size(47, 375);
             this.panel1.TabIndex = 0;
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Gray;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(410, 0);
+            this.panel2.Location = new System.Drawing.Point(410, 86);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(46, 461);
+            this.panel2.Size = new System.Drawing.Size(46, 375);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.Controls.Add(this.tabLaundry);
             this.panel3.Controls.Add(this.tabCleaning);
             this.panel3.Controls.Add(this.tabcooking);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(47, 0);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(363, 86);
+            this.panel3.Size = new System.Drawing.Size(456, 86);
             this.panel3.TabIndex = 0;
             // 
             // tabLaundry
@@ -90,7 +93,7 @@
             this.tabLaundry.Controls.Add(this.label3);
             this.tabLaundry.Controls.Add(this.pictureBox3);
             this.tabLaundry.Controls.Add(this.panel10);
-            this.tabLaundry.Location = new System.Drawing.Point(222, 0);
+            this.tabLaundry.Location = new System.Drawing.Point(279, 0);
             this.tabLaundry.Name = "tabLaundry";
             this.tabLaundry.Size = new System.Drawing.Size(77, 81);
             this.tabLaundry.TabIndex = 2;
@@ -128,7 +131,7 @@
             this.tabCleaning.Controls.Add(this.label2);
             this.tabCleaning.Controls.Add(this.pictureBox2);
             this.tabCleaning.Controls.Add(this.panel8);
-            this.tabCleaning.Location = new System.Drawing.Point(119, 0);
+            this.tabCleaning.Location = new System.Drawing.Point(176, 0);
             this.tabCleaning.Name = "tabCleaning";
             this.tabCleaning.Size = new System.Drawing.Size(77, 81);
             this.tabCleaning.TabIndex = 1;
@@ -162,11 +165,11 @@
             // 
             // tabcooking
             // 
-            this.tabcooking.BackColor = System.Drawing.Color.MistyRose;
+            this.tabcooking.BackColor = System.Drawing.Color.Coral;
             this.tabcooking.Controls.Add(this.label1);
             this.tabcooking.Controls.Add(this.pictureBox1);
             this.tabcooking.Controls.Add(this.panel6);
-            this.tabcooking.Location = new System.Drawing.Point(22, 0);
+            this.tabcooking.Location = new System.Drawing.Point(79, 0);
             this.tabcooking.Name = "tabcooking";
             this.tabcooking.Size = new System.Drawing.Size(77, 81);
             this.tabcooking.TabIndex = 0;
@@ -183,6 +186,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::AppAndroid.Properties.Resources._379504_chef_icon;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
@@ -212,6 +216,7 @@
             // 
             // laundryService1
             // 
+            this.laundryService1.BackColor = System.Drawing.Color.White;
             this.laundryService1.Location = new System.Drawing.Point(0, 1);
             this.laundryService1.Name = "laundryService1";
             this.laundryService1.Size = new System.Drawing.Size(363, 376);
@@ -237,9 +242,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel3);
             this.Name = "Services";
             this.Size = new System.Drawing.Size(456, 461);
             this.Load += new System.EventHandler(this.Services_Load);

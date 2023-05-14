@@ -118,214 +118,238 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1024.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SIgn up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SIgn up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="290143_cash_money_payment_wallet_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\290143_cash_money_payment_wallet_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="379504_chef_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\379504_chef_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="9016844_cleaning_house_covid-19_virus_pandemic_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9016844_cleaning_house_covid-19_virus_pandemic_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1564524_adress_gps_location_pin_position_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1564524_adress_gps_location_pin_position_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3099397_woman_cook_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3099397_woman_cook_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="REMEMBER ME" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\REMEMBER ME.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5486266_back_backward_circle_left_media_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5486266_back_backward_circle_left_media_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7150138_washing_machine_clean_wash_technology_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7150138_washing_machine_clean_wash_technology_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5486266_back_backward_circle_left_media_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5486266_back_backward_circle_left_media_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="38999_exit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\38999_exit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="73072_base_cart_shopping_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\73072_base_cart_shopping_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="290149_building_estate_home_house_real_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\290149_building_estate_home_house_real_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="331489_cook_halloween_scary_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\331489_cook_halloween_scary_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="4043250_avatar_child_girl_kid_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4043250_avatar_child_girl_kid_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="370076_account_avatar_client_male_person_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\370076_account_avatar_client_male_person_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="379504_chef_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\379504_chef_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1156630_location_navigation_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1156630_location_navigation_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="1181189_chat_wechat_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1181189_chat_wechat_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1688864_geo_location_map_optimization_place_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1688864_geo_location_map_optimization_place_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2178861_service_automobile_car_gear_accessories_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2178861_service_automobile_car_gear_accessories_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2540587_notification_paper plane_plane_send_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2540587_notification_paper plane_plane_send_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2670409_decorations_diwali_festival_lights_star_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2670409_decorations_diwali_festival_lights_star_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2670414_decorations_diwali_festival_lights_rangoli_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2670414_decorations_diwali_festival_lights_rangoli_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2812116_bank_cash_coin_dollar_money_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2812116_bank_cash_coin_dollar_money_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2812117_bank_cash_coin_dollar_money_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2812117_bank_cash_coin_dollar_money_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3099397_woman_cook_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3099397_woman_cook_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3643728_balloon_chat_conversation_speak_word_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3643728_balloon_chat_conversation_speak_word_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="3924904_kirim_send_web_creanimasi_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3924904_kirim_send_web_creanimasi_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4043238_avatar_boy_kid_person_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4043238_avatar_boy_kid_person_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4043250_avatar_child_girl_kid_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4043250_avatar_child_girl_kid_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4043260_avatar_male_man_portrait_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4043260_avatar_male_man_portrait_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5000720_maps_network_online_social media_location_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5000720_maps_network_online_social media_location_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5859103_boiling_cook_cooking_food_hot_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5859103_boiling_cook_cooking_food_hot_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5929219_cook_cooking_food_hot_kitchen_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5929219_cook_cooking_food_hot_kitchen_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="5964805_boiled food_cook_cooked food_healthy_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\5964805_boiled food_cook_cooked food_healthy_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="7150138_washing_machine_clean_wash_technology_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\7150138_washing_machine_clean_wash_technology_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="9016844_cleaning_house_covid-19_virus_pandemic_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9016844_cleaning_house_covid-19_virus_pandemic_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="9016847_cleaning_kitchen_covid-19_virus_pandemic_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9016847_cleaning_kitchen_covid-19_virus_pandemic_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="canho01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\canho01.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="canho02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\canho02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="canho03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\canho03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="canho04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\canho04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="canho05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\canho05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com030" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com030.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com031" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com032" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com032.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="com040" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\com040.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="com041" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com041.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="com050" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\com050.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="giat-ui" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\giat-ui.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2670409_decorations_diwali_festival_lights_star_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2670409_decorations_diwali_festival_lights_star_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Giatui01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Giatui01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Giatui02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Giatui02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com032.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="331489_cook_halloween_scary_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\331489_cook_halloween_scary_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="290143_cash_money_payment_wallet_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\290143_cash_money_payment_wallet_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REMEMBER ME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REMEMBER ME.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canho05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canho05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1688864_geo_location_map_optimization_place_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1688864_geo_location_map_optimization_place_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3099397_woman_cook_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3099397_woman_cook_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9016847_cleaning_kitchen_covid-19_virus_pandemic_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9016847_cleaning_kitchen_covid-19_virus_pandemic_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9016844_cleaning_house_covid-19_virus_pandemic_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9016844_cleaning_house_covid-19_virus_pandemic_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5486266_back_backward_circle_left_media_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5486266_back_backward_circle_left_media_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2670414_decorations_diwali_festival_lights_rangoli_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2670414_decorations_diwali_festival_lights_rangoli_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3643728_balloon_chat_conversation_speak_word_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3643728_balloon_chat_conversation_speak_word_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5000720_maps_network_online_social media_location_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5000720_maps_network_online_social media_location_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canho02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canho02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1024.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="290149_building_estate_home_house_real_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\290149_building_estate_home_house_real_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GiatUi03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GiatUi03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com050" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com050.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canho04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canho04.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4043260_avatar_male_man_portrait_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4043260_avatar_male_man_portrait_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4043238_avatar_boy_kid_person_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4043238_avatar_boy_kid_person_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5964805_boiled food_cook_cooked food_healthy_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5964805_boiled food_cook_cooked food_healthy_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com030.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2812116_bank_cash_coin_dollar_money_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2812116_bank_cash_coin_dollar_money_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7150138_washing_machine_clean_wash_technology_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7150138_washing_machine_clean_wash_technology_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2178861_service_automobile_car_gear_accessories_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2178861_service_automobile_car_gear_accessories_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="73072_base_cart_shopping_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\73072_base_cart_shopping_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="38999_exit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38999_exit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3924904_kirim_send_web_creanimasi_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3924904_kirim_send_web_creanimasi_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5486266_back_backward_circle_left_media_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5486266_back_backward_circle_left_media_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2812117_bank_cash_coin_dollar_money_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2812117_bank_cash_coin_dollar_money_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1564524_adress_gps_location_pin_position_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1564524_adress_gps_location_pin_position_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com041.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5859103_boiling_cook_cooking_food_hot_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5859103_boiling_cook_cooking_food_hot_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canho01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canho01.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7150138_washing_machine_clean_wash_technology_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7150138_washing_machine_clean_wash_technology_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="379504_chef_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\379504_chef_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GiatUi04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GiatUi04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3099397_woman_cook_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3099397_woman_cook_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="379504_chef_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\379504_chef_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Giatui02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Giatui02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="giat-ui" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\giat-ui.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SIgn up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SIgn up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1156630_location_navigation_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1156630_location_navigation_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9016844_cleaning_house_covid-19_virus_pandemic_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9016844_cleaning_house_covid-19_virus_pandemic_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2540587_notification_paper plane_plane_send_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2540587_notification_paper plane_plane_send_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5929219_cook_cooking_food_hot_kitchen_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5929219_cook_cooking_food_hot_kitchen_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
